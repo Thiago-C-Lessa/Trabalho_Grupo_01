@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-servicos.css">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="script/script-servicos.js"></script>
+    <title>TechMundo</title>
+</head>
+<body>
+      
+    <div class="header">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
+        <h1><a href="index.html">TechMundo</a></h1>
+        <div class="menu">
+            <a href="quem-somos.html">Quem Somos</a>
+            <a href="servicos.html">Nossos Serviços</a>
+            <a href="equipe.html">Nossa Equipe</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+  
+    <div class="center">
+
+      <div class="servicos">
+
+        <h2>Nossos Serviços</h1>
+
+        <div class="servicos servicos-item">
+          <img src="img/tela.jpg" alt="Conserto de tela">
+          <p> <span>Conserto de tela</span><br><br> Fazemos a substituição do vidro e também display completo do seu smartphone </p>
+        </div>
+
+        <div class="servicos servicos-item">
+          <p> <span>Troca de bateria</span><br><br> Fazemos a troca de bateria de todos os modelos de smartphone </p>
+          <img src="img/bateria.jpg" alt="Troca de bateria">
+        </div>
+
+        <div class="servicos servicos-item">
+          <img src="img/conector.jpg" alt="Conserto de conector">
+          <p> <span>Troca de conector</span><br><br> Fazemos limpeza e troca do conector USB do aparelho </p>
+        </div>
+
+        <div class="servicos servicos-item">
+          <p><span>Desbloqueio de dispositivo</span><br><br> Fazemos desbloqueio de aparelhos Android (para aparelhos iPhone, solicitamos o número IMEI do dispositivo ou comprovante de compra) </p>
+          <img src="img/desbloqueio.jpg" alt="Desbloqueio de dispositivo">
+        </div>
+
+        <div class="servicos servicos-item">
+          <img src="img/formatacao.jpg" alt="Formatação de dispositivo">
+          <p><span>Formatação de dispositivo</span><br><br> Formatamos o seu dispositivo caso você tenha esquecido a sua senha de desbloqueio </p>
+        </div>
+
+        <div class="servicos servicos-item">
+          <p><span>Limpeza de dispositivo</span><br><br> Fazemos a limpeza completa do dispositivo, incluindo conector, câmera, tela, microfone e também da placa </p>
+          <img src="img/limpeza.jpg" alt="Limpeza de dispositivo">
+        </div>
+
+        <div class="servicos servicos-item">
+          <img src="img/microfone.jpg" alt="Conserto de microfone">
+          <p><span>Conserto de microfone</span><br><br> Caso a limpeza não resolva o problema, substituímos o microfone do aparelho </p>
+        </div>
+
+        <div class="servicos servicos-item">
+          <p><span>Conserto de câmera</span><br><br> Caso a limpeza não resolva o problema, substituímos a câmera do aparelho </p>
+          <img src="img/camera.jpg" alt="Conserto de câmera">
+        </div>
+
+      </div>
+
+
+      <div class="orcamento">
+        
+        <form action="">
+         <label> <span>Solicite seu orçamento</span></label><br><br>
+         <div id="underLine"></div>
+
+         <input type='text' id='nome' name='nome' placeholder="Nome*" required><br>
+         <div id="underLine"></div>
+
+         <input type='email' id='email' name='email' placeholder="E-mail*" required><br>
+         <div id="underLine"></div>
+
+         <input type="tel" id="fone" name="fone" placeholder="Celular (com DDD)*" required><br>
+         <div id="underLine"></div><br>
+
+           <label for="marca">Marca do dispositivo:</label>
+          <select id="selecionar-marca" name="selecionar-marca" class="selecionar-marca" required>
+              <option value="selecione">Selecione...</option>
+              <option value="apple">Apple</option>
+              <option value="samsung">Samsung</option>
+              <option value="huawei">Huawei</option>
+              <option value="asus">Asus</option>
+              <option value="motorola">Motorola</option>
+              <option value="xiaomi">Xiaomi</option>
+              <option value="lg">LG</option>
+              <option value="nokia">Nokia</option>
+              <option value="sony">Sony</option>
+          </select><br>
+          <div id="underLine"></div><br>
+  
+          
+              <div class="modelo">
+                  <input type="text" name="modelo" id="modelo" placeholder="Modelo*" required>
+              </div>
+              <div id="underLine"></div><br>
+              
+              <label>Se desejar, envie uma imagem: </label><br>
+              <div class="imagem">
+                  <input type="file" name="image" id="image">
+              </div>
+              <div id="underLine"></div><br>
+
+              <label for="marca">Selecione o(s) serviço(s) desejado(s)*:</label><br>
+              <div class="tipo-servico">
+                  <label>
+                      <input type="checkbox" class="tipo-servico"> Conserto de tela<br>
+                      <input type="checkbox" class="tipo-servico"> Troca de bateria<br>
+                      <input type="checkbox" class="tipo-servico"> Troca de conector<br>
+                      <input type="checkbox" class="tipo-servico"> Desbloqueio do dispositivo<br>
+                      <input type="checkbox" class="tipo-servico"> Formatação do dispositivo<br>
+                      <input type="checkbox" class="tipo-servico"> Limpeza do dispositivo<br>
+                      <input type="checkbox" class="tipo-servico"> Conserto do microfone<br>
+                      <input type="checkbox" class="tipo-servico"> Conserto da câmera<br>
+                      <input type="checkbox" class="tipo-servico"><input type="text" placeholder="Outro"> <br>
+                  </label>
+              </div>
+              <div id="underLine"></div><br>
+  
+              <div class="obs">
+                  <input type="text" placeholder="Observações">
+              </div>
+              <div id="underLine"></div><br>
+  
+              <input id="submit" type="submit" onclick="enviarForm()">
+          
+      </form>
+      </div>
+        
+    </div><br>
+
+    <div class="footer">
+      <div class="menu">
+        <a href="servicos.html">Nossos Serviços</a>
+        <a href="equipe.html">Nossa Equipe</a>
+        <a href="contato.html">Contato</a>
+        <a href="index.html"><img class="logo" src="img/logoBranco.png" alt="Logo"></a>
+      </div>
+
+      <div class="info">
+        <div class="endereco">
+          <h2>Endereço</h2>
+          <p>Rua João Torquato, 38 - Bonsucesso, Rio de Janeiro</p>
+        </div>
+
+        <div class="contato">
+          <h2>Contato</h2>
+          <p><span>Telefone:</span> (21) 1234-5678</p>
+          <p><span>E-mail:</span> contato@techmundo.com</p>
+        </div>
+      </div>
+
+      <div class="frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4842714673177!2d-43.257682885083916!3d-22.858562485036416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997bfee18bbca5%3A0x5856196c61b4f81a!2sR.%20Jo%C3%A3o%20Torquato%2C%2038%20-%20Bonsucesso%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021032-150!5e0!3m2!1spt-BR!2sbr!4v1666190591924!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+</body>
+</html>

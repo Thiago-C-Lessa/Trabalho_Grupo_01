@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-contato.css">
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/b8e01a2b18.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script deref src="script/contato.js"></script>
+    <title>TecMundo</title>
+</head>
+<body>
+      
+    <div class="header">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
+        <h1><a href="index.html">TechMundo</a></h1>
+        <div class="menu">
+            <a href="quem-somos.html">Quem Somos</a>
+            <a href="servicos.html">Nossos Serviços</a>
+            <a href="equipe.html">Nossa Equipe</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+  
+    <div class="center">
+        <div id="form">
+        
+          <div id="sub-form">
+<!--usando required para notificar que o campo nao foi preenchido-->
+            <h3>Entre em contato</h3>
+          <form action="" id="formulario" id="form">
+          <div id="input-field">
+            <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
+            <div id="underLine"></div>
+          </div>
+  
+          <div id="input-field">
+            <input type="text" name="email" id="email" placeholder="Seu Email" required>
+            <div id="underLine"></div>
+          </div>
+          
+          <div id="input-field">
+            <input type="text" name="numero" id="numero" placeholder="Seu Número com DDD" required>
+            <div id="underLine"></div>
+          </div>
+  
+          <div id="input-field">
+            <input type="text" name="assunto" id="assunto" placeholder="Assunto" required>
+            <div id="underLine"></div>
+          </div>
+  
+            <input type="submit" value="enviar" id="form-b" onclick="enviar()">
+          </form>
+        <span>Ou entre em conato pelas redes sociais</span>
+
+          <div id="social">
+
+          <div id="facebook">
+            <a href="https://www.facebook.com/raiane.gomes.543792">
+              <i class="fa-brands fa-facebook-f"></i>
+              Entre em conato pelo Facebook
+            </a>
+          </div>
+
+          <div id="instagram">
+          <a href="https://instagram.com/raigcel?igshid=YmMyMTA2M2Y=">
+            <i class="fa-brands fa-instagram"></i>
+            Entre em conato pelo Instagram
+          </a>
+        </div>
+          </div>
+        
+          </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="menu">
+            <a href="servicos.html">Nossos Serviços</a>
+            <a href="equipe.html">Nossa Equipe</a>
+            <a href="contato.html">Contato</a>
+            <a href="index.html" id="logo-rodaPe"><img class="logo" src="img/logoBranco.png" alt="Logo"></a>
+          </div>
+  
+          <div class="info">
+            <div class="endereco">
+              <h2>Endereço</h2>
+              <p>Rua João Torquato, 38 - Bonsucesso, Rio de Janeiro</p>
+            </div>
+  
+            <div class="contato">
+              <h2>Contato</h2>
+              <p><span>Telefone:</span> (21) 1234-5678</p>
+              <p><span>E-mail:</span> contato@TecMundo.com</p>
+            </div>
+          </div>
+  
+          <div class="frame">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4842714673177!2d-43.257682885083916!3d-22.858562485036416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997bfee18bbca5%3A0x5856196c61b4f81a!2sR.%20Jo%C3%A3o%20Torquato%2C%2038%20-%20Bonsucesso%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021032-150!5e0!3m2!1spt-BR!2sbr!4v1666190591924!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+    </div>
+
+</body>
+</html>
